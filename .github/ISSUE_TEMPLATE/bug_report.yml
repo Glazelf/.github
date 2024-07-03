@@ -9,16 +9,16 @@ body:
       label: Issue Description
       description: Describe the issue. Description should go into as much detail as possible. Feel free to add screenshots.
       placeholder: "'...' is broken and every time I try to '...' I get faced with '...' and then '...'"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: expectedbehaviour
     attributes:
       label: Expected Behaviour
       description: Describe the behaviour you expected instead of the issue.
       placeholder: I expected '...' to happen after I clicked '...'
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: reproduction
     attributes:
@@ -30,8 +30,8 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: device
     attributes: 
@@ -51,5 +51,5 @@ body:
         - High (Severe impact on one or few users)
         - Medium (Low impact for all users)
         - Low (Low impact for one or few users)
-      validations:
-        required: true
+    validations:
+      required: true
