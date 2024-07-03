@@ -8,7 +8,7 @@ body:
     attributes:
       label: Issue Description
       description: Describe the issue. Description should go into as much detail as possible. Feel free to add screenshots.
-      placeholder: '...' is broken and every time I try to '...' I get faced with '...' and then '...'
+      placeholder: "'...' is broken and every time I try to '...' I get faced with '...' and then '...'"
       validations:
         required: true
   - type: textarea
@@ -51,3 +51,5 @@ body:
         - High (Severe impact on one or few users)
         - Medium (Low impact for all users)
         - Low (Low impact for one or few users)
+      validations:
+        required: true
