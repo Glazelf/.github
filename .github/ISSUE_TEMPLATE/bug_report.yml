@@ -47,9 +47,9 @@ body:
       label: Issue Priority
       description: Priority & impact of the issue.
       options:
-        - Critical (Severe impact for all users)
-        - High (Severe impact on one or few users)
-        - Medium (Low impact for all users)
         - Low (Low impact for one or few users)
+        - Medium (Low impact for all users)
+        - High (Severe impact on one or few users)
+        - Critical (Severe impact for all users)
     validations:
       required: true
