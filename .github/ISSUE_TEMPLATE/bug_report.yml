@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report an issue
+description: Report an issue.
 labels: [bug]
 assignees: Glazelf
 body:
