@@ -6,7 +6,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Feature
+      label: Feature Description
       description: Describe the feature. Description should go into as much detail as possible. Feel free to add screenshots.
     validations:
       required: true
