@@ -1,0 +1,12 @@
+name: Feature Request
+about: Suggest a new feature
+labels: [enhancement]
+assignees: Glazelf
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature
+      description: Describe the feature. Description should go into as much detail as possible. Feel free to add screenshots.
+    validations:
+      required: true

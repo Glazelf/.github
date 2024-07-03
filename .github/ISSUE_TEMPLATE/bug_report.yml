@@ -1,0 +1,53 @@
+name: Bug Report
+about: Report an issue
+labels: [bug]
+assignees: Glazelf
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Describe the issue. Description should go into as much detail as possible. Feel free to add screenshots.
+      placeholder: '...' is broken and every time I try to '...' I get faced with '...' and then '...'
+      validations:
+        required: true
+  - type: textarea
+    id: expectedbehaviour
+    attributes:
+      label: Expected Behaviour
+      description: Describe the behaviour you expected instead of the issue.
+      placeholder: I expected '...' to happen after I clicked '...'
+      validations:
+        required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Steps to reproduce the issue.
+      placeholder: |
+        Steps to reproduce:
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+      validations:
+        required: true
+  - type: textarea
+    id: device
+    attributes: 
+      label: Device Info
+      description: Device information. Feel free to leave empty if not relevant.
+      placeholder: |
+        - OS: [e.g. Android, Windows]
+        - Browser [e.g. Chrome, Safari] / Desktop / Mobile
+        - Platform version [e.g. Discord Canary 84265]
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Issue Priority
+      description: Priority & impact of the issue.
+      options:
+        - Critical (Severe impact for all users)
+        - High (Severe impact on one or few users)
+        - Medium (Low impact for all users)
+        - Low (Low impact for one or few users)
