@@ -1,0 +1,12 @@
+name: Question
+description: Ask a question.
+labels: [question]
+assignees: Glazelf
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask your question. Be sure to add as much detail and context as possible.
+    validations:
+      required: true
